@@ -79,7 +79,7 @@ The location of the vault is defined in our playbook under “var_files:”
 Your file should look something like this:
 
 aws_access_key_id: abc123abc123abc123abc123  
-aws_secret_access_key: abc123abc123abc123abc123 
+aws_secret_access_key: abc123abc123abc123abc123
 merakiapikey: abc123abc123abc123abc123 abc123abc123abc123abc1237 
 psk: abc123abc123abc123abc123T abc123abc123abc123abc123  
 
