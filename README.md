@@ -98,5 +98,5 @@ https://docs.ansible.com/ansible/latest/user_guide/vault.html
 ## Manually test the connection:
 A quick ping test should confirm that the MX is now able to reach the EC2 instance. The first few pings may fail while the IPSec tunnel is set up:
 ## Ping Example
-![Diagram](images/Picture2.png)
+![Diagram](images/Screen Shot 2020-08-11 at 11.29.42 AM.png)
 
