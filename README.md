@@ -43,12 +43,13 @@ https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.ht
 For Mac, the process for installing Ansible inside a Virtual Environment is:
 
 python -m virtualenv ansible  # Create a virtualenv if one does not already exist
+
 $ source ansible/bin/activate   # Activate the virtual environment
+
 $ pip install ansible
 
 
-# Create a file "credentials.ini" with the following contents:
-
+# Create a file "credentials.yml":
 
 
 We’re going to store our variables and credentials in an encrypted local file – the Ansible Vault.
