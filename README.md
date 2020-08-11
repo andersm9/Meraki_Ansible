@@ -11,6 +11,8 @@ This example shows how we can achieve cloud provisioning, service orchestration,
 # Dependencies
 ## Python
 This script was develeoped using python version 3.7.2
+The Ansible Playbook assumes that the Meraki Organisation has a single MX appliance with a single uplink, and an AWS with a single VPC.
+
 # Prerequisites
 You will need:
 an AWS account running an EC2 instance. You’ll need some details of the AWS set up:
