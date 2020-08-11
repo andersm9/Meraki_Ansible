@@ -74,7 +74,7 @@ If you want to later edit the file, use the following:
 The location of the vault is defined in our playbook under “var_files:”
 
   vars_files:
-    - /Users/mark.anderson/documents/internal/api/keys/aws_keys.yml
+    - credentials.yml
 
 Your file should look something like this:
 
