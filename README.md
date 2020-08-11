@@ -61,7 +61,7 @@ We’re going to add the following credentials and variables to our encrypted va
 * AWS Subnet ID
 * IPSec Preshared Key
 
-Create the encrypted file using:
+### Create the encrypted file using:
 ansible-vault create ansible_vars.yml
 
 You’ll be prompted to provide a password for this file.
