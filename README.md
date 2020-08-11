@@ -10,7 +10,7 @@ This example shows how we can achieve cloud provisioning, service orchestration,
 
 # Dependencies
 ## Python
-This script was develeoped using python version 3.7.3
+This script was develeoped using python version 3.7.2
 # Prerequisites
 AWS account, running an EC2 instance. You’ll need some details of the AWS set up:
 * Aws_access_key_id
