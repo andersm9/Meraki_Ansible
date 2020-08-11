@@ -64,7 +64,7 @@ We’re going to add the following credentials and variables to our encrypted va
 ### Create the encrypted file using:
     ansible-vault create ansible_vars.yml
 
-You’ll be prompted to provide a password for this file.
+You’ll be prompted to provide a password for this file, and then to populate it with your default text editor.
 
 If you want to later edit the file, use the following:
 
