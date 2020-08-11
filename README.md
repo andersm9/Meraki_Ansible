@@ -46,7 +46,7 @@ https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.ht
 
 For Mac, the process for installing Ansible inside a Virtual Environment is:
 
-$ pip install ansible
+$ pip3 install ansible
 
 
 # Create a file "credentials.yml":
