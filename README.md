@@ -1,6 +1,6 @@
 # Overview
 
-This example shows how we can achieve cloud provisioning, service orchestration, configuration management <<enter others here>> using Ansible. We shall:
+This example shows how we can achieve cloud provisioning, service orchestration, configuration management using Ansible. We shall:
 
 * Install Ansible and associated libraries and modules
 * Run an Ansible Playbook that shall create an IPSec tunnel between
@@ -12,7 +12,8 @@ This example shows how we can achieve cloud provisioning, service orchestration,
 ## Python
 This script was develeoped using python version 3.7.2
 # Prerequisites
-AWS account, running an EC2 instance. You’ll need some details of the AWS set up:
+You will need:
+an AWS account running an EC2 instance. You’ll need some details of the AWS set up:
 * Aws_access_key_id
 * Aws_secret_access_key
 * IP Address of your EC2 instance
