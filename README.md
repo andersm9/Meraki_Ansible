@@ -62,13 +62,13 @@ We’re going to add the following credentials and variables to our encrypted va
 * IPSec Preshared Key
 
 ### Create the encrypted file using:
-ansible-vault create ansible_vars.yml
+    ansible-vault create ansible_vars.yml
 
 You’ll be prompted to provide a password for this file.
 
 If you want to later edit the file, use the following:
 
-ansible-vault edit /path/to/file/ansible_vars.yml
+    ansible-vault edit /path/to/file/ansible_vars.yml
 
 
 The location of the vault is defined in our playbook under “var_files:”
