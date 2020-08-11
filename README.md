@@ -18,6 +18,7 @@ an AWS account running an EC2 instance. You’ll need some details of the AWS se
 * Aws_secret_access_key
 * IP Address of your EC2 instance
 * Subnet ID of the subnet your EC2 instance resides in
+
 Meraki Dashboard, with an MX Security and SD-WAN appliance. You’ll need the following details:
 *	Meraki Dashboard API key
 
