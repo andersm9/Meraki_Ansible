@@ -82,6 +82,7 @@ aws_access_key_id: abc123abc123abc123abc123
 aws_secret_access_key: abc123abc123abc123abc123 
 merakiapikey: abc123abc123abc123abc123 abc123abc123abc123abc1237 
 psk: abc123abc123abc123abc123T abc123abc123abc123abc123  
+
 rtid: rtb-abc123  
 
 The variables stored in the vault can then be accessed as follows, for instance:
