@@ -62,13 +62,13 @@ We’re going to add the following credentials and variables to our encrypted va
 * IPSec Preshared Key
 
 ### Create the encrypted file using:
-    ansible-vault create credentials.yml
+    $ansible-vault create credentials.yml
 
 You’ll be prompted to provide a password for this file, and then to populate it with your default text editor.
 
 If you want to later edit the file, use the following:
 
-    ansible-vault edit /path/to/file/credentials.yml
+    $ansible-vault edit /path/to/file/credentials.yml
 
 
 The location of the vault is defined in our playbook under “var_files:”
@@ -94,7 +94,7 @@ https://docs.ansible.com/ansible/latest/user_guide/vault.html
 
 ## Launch the playbook:
 
-    ansible-playbook Playbook.yml --ask-vault-pass
+    $ansible-playbook Playbook.yml --ask-vault-pass
     
 ## Manually test the connection:
 A quick ping test should confirm that the MX is now able to reach the EC2 instance. The first few pings may fail while the IPSec tunnel is set up:
