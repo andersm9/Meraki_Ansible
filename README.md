@@ -94,7 +94,7 @@ https://docs.ansible.com/ansible/latest/user_guide/vault.html
 
 ## Launch the playbook:
 
-    $ansible-playbook AWS_vMX_v4.yml --ask-vault-pass
+    $ansible-playbook Playbook.yml --ask-vault-pass
     
 ## Manually test the connection:
 A quick ping test should confirm that the MX is now able to reach the EC2 instance. The first few pings may fail while the IPSec tunnel is set up:
