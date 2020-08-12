@@ -12,7 +12,7 @@
 
 #Meraki info gathering first
 
-    - name: GET UPLINK IP
+    - name: GET The UPLINK IP
       uri:
         url: https://api.meraki.com/api/v1/organizations/265528/appliance/uplink/statuses
         method: GET
